@@ -1,0 +1,60 @@
+body {
+    background-color: cornsilk;
+    margin: 2% 10%;
+    padding: 20px;
+}
+
+body,
+form,
+input,
+button {
+    font-family: cursive;
+    font-weight: 200;
+    /*display: block;*/
+}
+
+.title {
+    font-weight: bold;
+    text-align: center;
+    font-family: cursive;
+    margin-top: 5%;
+}
+
+.form {
+    text-align: center;
+    margin: 5% 15%;
+    padding: 20px;
+}
+
+input {
+    /*position: relative;*/
+    margin-left: 20px;
+    padding: 10px;
+}
+
+.submit, .proceed {
+    text-align: center;
+    padding: 10px;
+    display: inline;
+    margin: 10% 5%;
+    padding: 10px;
+    font-weight: bold;
+    /*position: relative;*/
+}
+
+.proceed{
+    margin: 15% 20%;
+}
+
+.parametersForm{
+    margin-left: 15%;
+    margin-top: -5%;
+    display: table-caption;
+    position: absolute;
+    padding: 10% 10%;
+}
+
+.chart-container {
+    width: 750px;
+    height: 1050px;
+}
